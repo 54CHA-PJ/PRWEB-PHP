@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <title>Library Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-dark body_consolas">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <h2 class="text-center title_consolas mb-2">This is not a responsive webpage</h2>
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <form action="php/action.php" method="GET" class="login">
+                                    <div class="form-group">
+                                        <label for="user">Username:</label>
+                                        <input type="text" id="user" name="user" placeholder="Login" required class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwd">Password:</label>
+                                        <input type="password" id="passwd" name="passwd" placeholder="Password" required class="form-control">
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit" class="btn btn-primary btn-block large" style="min-width: 100px;">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
